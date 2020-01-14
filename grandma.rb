@@ -3,7 +3,10 @@ def speak_to_grandma(phrase)
   if phrase == "I LOVE YOU GRANDMA!"
     output = "I LOVE YOU TOO PUMPKIN"
   elsif
-  phrase == phrase.
+  phrase == phrase.upcase
+  output = "NO, NOT SINCE 1938!"
+  phrase != phrase.upcase
+  output = "HUH? SPEAK UP, SONNY!"
   end
   return output
 end
